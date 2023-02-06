@@ -8,6 +8,7 @@
     background-image: url(https://images01.nicepage.com/1e/a1/1ea150a80b55b574e9ed5ca2338302fa.jpeg);
    background-size: 100% 100%;
    background-position: center;
+   object-fit: cover;
 }
 .f-text{
     width: 52%;
@@ -37,6 +38,18 @@
     }
     .f-text p{
         font-size: 17px;
+    }
+}
+@media(max-width:576px){
+    .first{
+        height: 500px;
+        background-size: cover;
+    }
+    .f-text{
+        width: 90%;
+    }
+    .f-text h2{
+        font-size: 25px;
     }
 }
 .f-text button{
@@ -101,13 +114,14 @@
 @media(max-width:770px){
     .second{
         height: 1100px;
+        margin-bottom: 15px;
     }
     .one{
         flex-wrap: wrap;
     }
     .svg-text{
         margin: auto;
-        width: 50%;
+        width: 90%;
         height: 300px;
         margin-bottom: 10px;
     }
@@ -157,7 +171,8 @@
 }
 @media(max-width:992px){
     .all-photo{
-        height: 2160px;
+        height: 880px;
+        margin-bottom: 20px;
     }
     .pht{
         width: 90%;
@@ -165,10 +180,11 @@
 }
 @media(max-width:770px){
     .all-photo{
-        height: 2300px;
+        height: 2150px;
+        margin-bottom: 20px;
     }
     .pht{
-        width: 90%;
+        width: 97%;
     }
 }
 .new{
@@ -243,15 +259,21 @@
         height: auto;
     }
     .new-txt{
-        height:570px;
+        height:600px;
     }
     .new-text{
         width: 80%;
     }
 }
 @media(max-width:576px){
+    .new-text{
+        margin-bottom: 20px;
+    }
     .new-txt{
-        height: 700px;
+        height: 720px;
+    }
+    .new button{
+        margin-bottom: 10px;
     }
 }
 .h0-pic{
@@ -320,7 +342,8 @@
 }
 @media(max-width:770px){
     .h0-pic{
-        height: 1000px;
+        height: 1070px;
+        margin-bottom: 15px;
     }
     .h1-pic{
         width: 85%;
@@ -328,7 +351,7 @@
     }
     .h2-pic{
         width: 78%;
-        height: 200px;
+        height: 220px;
     }
 }
 .last{
@@ -378,7 +401,8 @@
 }
 @media(max-width:770px){
     .last{
-        height: 1000px;
+        height: auto;
+        margin-bottom: 20px;
         flex-wrap: wrap;
     }
     .l-img{
