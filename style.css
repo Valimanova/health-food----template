@@ -413,6 +413,7 @@
     }
     .l-text{
         width: 97%;
+        height: auto;
         margin: auto;
     }
 }
